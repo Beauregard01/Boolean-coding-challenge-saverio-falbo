@@ -1,0 +1,75 @@
+/* sfondo e logo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body > div{
+  border: 1px solid black;
+  background-color: rgba(1, 1, 1, 0.5);
+  border-radius: 10px;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 5%;
+}
+
+.page{
+  margin: 8%;
+}
+
+img{
+  width: 25%;
+  height: 25%;
+}
+
+header{
+  text-align: center;
+  color: #39FF14;
+}
+
+h1{
+  margin-bottom: 0px;
+}
+
+/* toolbar */
+
+nav{
+  text-align: center;
+  background-color: #39FF14;
+  padding: 1%;
+}
+
+h2{
+  display: inline;
+}
+
+main div{
+  color: white;
+  margin-top: 15px;
+}
+
+span {
+  display: block;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#charge1 {
+  border: 10px solid orange;
+  border-radius: 3px;
+  width: 30%;
+}
+
+#charge2 {
+  border: 10px solid green;
+  border-radius: 3px;
+  width: 50%;
+}
+
+#charge3 {
+  border: 10px solid red;
+  border-radius: 3px;
+  width: 10%;
+}
